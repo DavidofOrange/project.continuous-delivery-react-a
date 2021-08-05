@@ -1,0 +1,35 @@
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(46, 53, 139);
+}
+
+#truckLogo {
+  width: 80px;
+  height: 50px;
+  margin: 5px;
+}
+
+.flyingk {
+  font-family: "Faster One", cursive;
+  color: rgb(248, 242, 242);
+  font-size: 60px;
+  text-shadow: black 2px 1px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    display: flex;
+  }
+  #truckLogo {
+    width: 60px;
+    height: 30px;
+    margin: 2px;
+  }
+  .flyingk {
+    font-size: 40px;
+    margin-right: 5px;
+  }
+}
